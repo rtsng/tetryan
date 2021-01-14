@@ -93,7 +93,7 @@
         height: 120px;
         display: flex;
         flex-wrap: wrap;
-        background-color: rgb(54, 57, 65);
+        background-color:rgb(54, 57, 65);
     }
     
     .mini-grid div {
@@ -109,8 +109,20 @@
         font-family: 'Courier Prime', monospace;
         font-size: 20px;
         color: white;
+        display: block;
     }
     body{
         background-color: rgb(42, 44, 48);
+        font-family: 'Courier Prime', monospace;
     }
-    
+    .taunt {
+        width: 30%;
+        font-family: 'Courier Prime', monospace;
+        color: white;
+        display: block;
+        margin-left: 20px;
+    }
+    .link {
+        color: white;
+    }
+}

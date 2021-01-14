@@ -1,0 +1,33 @@
+body {
+    margin-top: 100px;
+    background-color: rgb(36, 36, 36);
+}
+.light-mode {
+    background-color: rgb(238, 235, 226);
+    color: black;
+}
+.text {
+    color: #706C5A;
+    /* color: white; */
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+
+#output {
+    float: left;
+    padding-left: 20%;
+}
+#score {
+    padding-left: 55%;
+}
+#instructions {
+    float: left;
+    position: absolute;
+    left: 1.5%;
+    bottom: 3%;
+    font-size: small;
+    line-height: 110%;
+}
+a:link {
+    color: inherit;
+}
